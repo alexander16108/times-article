@@ -53,12 +53,11 @@ p{
 	font-size: 16px;
     font-family: nyt-imperial, georgia, 'times new roman', times, serif;
     text-align: center;
-	
+	padding-right: 50%;
 }
-section{
-    text-align: center;
 
-}
+
+
 /* editor's page section*/
 .editor{
     display: flex;
