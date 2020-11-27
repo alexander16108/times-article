@@ -2,6 +2,7 @@
 header{
  display: flex;
 justify-content: space-between;
+position: sticky;
 }
 
 .spacex{
@@ -10,8 +11,9 @@ justify-content: space-between;
     margin-top: 0px;
     padding: 0px;
     color: black;
-    font-family: serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: lighter;
+
     
 }
 .spacex :hover{
@@ -19,7 +21,7 @@ justify-content: space-between;
     color: black;
 }
 h1{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
@@ -34,16 +36,31 @@ h1{
 
 .theory >img{
     margin: 0px;
+    
     border: 0px;
     width: 66%;
 }
-
 .left_section{
-    display: flex;
-    justify-content: stretch;
+   flex-direction: column;
+    padding: 0%;
+    margin: 0%;
 }
 .middle_section{
     align-items: center;
+}
+
+.right_section{
+    padding-top: 32px;
+ 
+
+}
+.btn{
+    margin: 0px;
+    background-color: rgb(71, 71, 141);
+    color: white;
+    border: none;
+padding: 8px;
+border-radius: 3px;
 }
 p{
     
@@ -51,7 +68,7 @@ p{
   margin-top: 10px;
 	color: #666;
 	font-size: 16px;
-    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 	padding-right: 50%;
 }
@@ -107,4 +124,8 @@ width: 300px;
  }
  h6{
      text-align: center;
+ }
+ .downer a{
+     margin: 0px;
+     padding-bottom: 22px;
  }
