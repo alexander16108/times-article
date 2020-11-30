@@ -122,9 +122,45 @@ font-weight: 400;
   width: auto;
 font-weight: 400;
 }
+/*.comment{
+    display: flex;
+    justify-content: space-between;
+  box-sizing: border-box;
 
-.read{
-    width: 70%;
-    margin: auto;
-    
 }
+.comment .read{
+    width: 20%;
+    margin: auto;
+    padding: 5px;
+
+
+}
+*/
+#downer {
+display: grid;
+justify-content: space-between;
+box-sizing: border-box;
+}
+   #downer p{
+   
+box-sizing: border-box;
+
+   }
+  #downer a{
+      color: rgb(58, 52, 52);
+      text-decoration: none;
+  }
+  #downer a :hover{
+      color: rgb(61, 60, 60);
+      text-decoration:underline;
+
+  }
+  #downer {
+    grid-template-columns: repeat(6, 1fr);
+  }
+ 
+ .first_footer{
+    width: 150px;
+    font-size: 13px;
+    flex-direction: column;
+ }
