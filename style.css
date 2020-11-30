@@ -102,18 +102,66 @@ nav {
 
 /*body and text*/
 .tommy{
-  width: 50%;
-  margin: auto;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 1.3rem;
+ box-sizing: border-box;
+ width: 50%;
+ margin: auto;
+ font-weight: 300;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 20px;
+   
 }
-/*aside article */
-.editor {
-  float: right; 
-  width: 50%;
+/*aside article 
+.editor{
+float: right;
+display: grid;
+}
+*/
+
+.theory{
+    width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.theory h3{
+    font-family: serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.theory p{
+color: rgb(126, 123, 123);
+font-size: 13px;
+width: 80%;
+}
+   .inflation_cards{
+    display: flex;
+}
+    .inflation_cards img{
+    width: 190px;
+}
+       .inflation_cards p{
+font-size: 15px;
+box-sizing: border-box;
+width: auto;
+font-weight: 400;
 }
 
-.editor img{
-  width: 100px;
-  height: 100px;
+       .inflation_cardi{
+    display: flex;
+}
+      .inflation_cardi img{
+    width: 190px;
+}
+      .inflation_cardi p{
+   font-size: 15px;
+   box-sizing: border-box;
+  width: auto;
+font-weight: 400;
+}
+
+.read{
+    width: 70%;
+    margin: auto;
+    
 }
