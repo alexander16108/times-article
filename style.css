@@ -39,6 +39,7 @@ nav {
 .right_section {
   padding: 10px 10px 0px 10px;
 }
+
  .right_section button{
   background-color: rgb(46, 117, 161); 
   color: white;
@@ -48,6 +49,7 @@ nav {
   margin: 3px;
   font-weight: bold;
  }
+
 .heading_first h1{
   text-align: center;
   font-size: 30px;
@@ -66,10 +68,6 @@ nav {
 .first_image img {
   width: 1000px;
   height: 600px;
-}
-
-#item {
-  margin-right: 26%;
 }
 
 #section1 {
@@ -94,21 +92,28 @@ nav {
     color: black;
 }
 .share_icons i {
- font-size: 1.1rem;
- background-color: #f2f2f2;
- padding: 10px;
- border-radius: 50%;
+  font-size: 1.1rem;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+aside {
+  float: right;
+}
+
+aside img {
+  width: 100px;
+  height: 100px;    
 }
 
 /*body and text*/
-.tommy{
- box-sizing: border-box;
- width: 50%;
+.tommy {
+ width: 40%;
  margin: auto;
  font-weight: 300;
  font-family: Arial, Helvetica, sans-serif;
  font-size: 20px;
-   
 }
 /*aside article 
 .editor{
@@ -116,52 +121,101 @@ float: right;
 display: grid;
 }
 */
-
 .theory{
-    width: 80%;
-    margin: auto;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-}
-.theory h3{
-    font-family: serif;
-    font-weight: bold;
-    font-size: 20px;
-}
-.theory p{
-color: rgb(126, 123, 123);
-font-size: 13px;
-width: 80%;
-}
-   .inflation_cards{
-    display: flex;
-}
-    .inflation_cards img{
-    width: 190px;
-}
-       .inflation_cards p{
-font-size: 15px;
-box-sizing: border-box;
-width: auto;
-font-weight: 400;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
 }
 
-       .inflation_cardi{
-    display: flex;
+.theory h3{
+  font-family: serif;
+  font-weight: bold;
+  font-size: 20px;
 }
-      .inflation_cardi img{
-    width: 190px;
+
+.theory p{
+  color: rgb(126, 123, 123);
+  font-size: 13px;
+  width: 80%;
 }
-      .inflation_cardi p{
-   font-size: 15px;
-   box-sizing: border-box;
+
+.inflation_cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+
+.inflation_cards img{
+  width: 190px;
+}
+
+.inflation_cards p{
+  font-size: 15px;
+  box-sizing: border-box;
   width: auto;
-font-weight: 400;
+  font-weight: 400;
+}
+
+.inflation_cardi{
+  display: flex;
+}
+
+.inflation_cardi img{
+  width: 190px;
+}
+
+.inflation_cardi p{
+  font-size: 15px;
+  box-sizing: border-box;
+  width: auto;
+  font-weight: 400;
+}
+ 
+.cosmos_2 {
+  margin: auto;
+  width: 50%;
+}
+
+.cosmos_2 img {
+  width: 700px;
+  height: 500px;
 }
 
 .read{
-    width: 70%;
-    margin: auto;
-    
+  width: 70%;
+  margin: auto;  
+  background-color: rgb(46, 117, 161); 
+  color: white;
+  width: 400px;
+  padding: 15px 0;
+}
+
+.astronomy_cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;;
+}
+
+.astronomy {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.astronomy a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.astronomy a:hover{
+  color: grey;
+}
+
+.astronomy_cards img {
+  width: 400px;
+  height: 250px;
 }
