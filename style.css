@@ -68,15 +68,63 @@ width: 50%;
     box-sizing: border-box;
  width: 50%;
  margin: auto;
- font-weight: bold;
- font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-weight: 300;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 20px;
    
 }
-/*aside article */
+/*aside article 
 .editor{
 float: right;
 display: grid;
 }
-.editor img{
+*/
 
+.theory{
+    width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.theory h3{
+    font-family: serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.theory p{
+color: rgb(126, 123, 123);
+font-size: 13px;
+width: 80%;
+}
+   .inflation_cards{
+    display: flex;
+}
+    .inflation_cards img{
+    width: 190px;
+}
+       .inflation_cards p{
+font-size: 15px;
+box-sizing: border-box;
+width: auto;
+font-weight: 400;
+}
+
+       .inflation_cardi{
+    display: flex;
+}
+      .inflation_cardi img{
+    width: 190px;
+}
+      .inflation_cardi p{
+   font-size: 15px;
+   box-sizing: border-box;
+  width: auto;
+font-weight: 400;
+}
+
+.read{
+    width: 70%;
+    margin: auto;
+    
 }
