@@ -1,4 +1,6 @@
-
+<<<<<<< HEAD
+a solo website creator 
+=======
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # NEW YORK TIMES PAGE
@@ -41,4 +43,4 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/alexander)
 - LinkedIn: [LinkedIn](https://linkedin.com/alexander)
 
-
+>>>>>>> 5e724922d216048b81a09c1b4ffc3744c03676a6
