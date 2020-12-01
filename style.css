@@ -1,82 +1,346 @@
-   nav{
-    display: flex;
-    justify-content:space-between;
 
-   background-color: white;
-     color: black;
-    width: 100%;
-    margin: 0%;
-    padding: 10px;
-   height: 40px;
-}
+nav { 
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	color: black;
+	width: 100%;
+	margin-top: 0%;
+	padding: 10px;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+     }
+     
+     .left_section {
+	padding: 10px 10px 0px 10px;
+     }
+     
+     .left_section .fa-search, .fa-bars{
+	padding-right: 15px;
+     }
+     
+     .left_section a {
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+      }
+     
+     .left_section a:hover {
+	color: rgb(31, 29, 29);
+	text-decoration: none;
+      }
+     
+     .middle_section img {
+	height: 50px;
+	width:200px;
+     } 
+     
+     .right_section {
+	padding: 10px 10px 0px 10px;
+     }
+     
+      .right_section button{
+	background-color: rgb(46, 117, 161); 
+	color: white;
+	padding: 8px;
+	border: none;
+	border-radius: 4px;
+	margin: 3px;
+	font-weight: bold;
+      }
+     
+     .heading_first h1{
+	text-align: center;
+	font-size: 30px;
+	color: #000;
+	font-style: italic;
+	font-weight: bold;
+	font-family:nyt-imperial,georgia,'times new roman',times,serif;
+	margin-top: 6rem;
+     }
+     
+     .first_image {
+	  margin: auto;
+	  width: 70%;
+     }
+     
+     .first_image img {
+	width: 1000px;
+	height: 600px;
+     }
+     
+     #section1 {
+	margin: auto;
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	padding-top:1.5rem;
+     }
+     
+     .date {
+	  font-size: 1.2rem;
+     }
+     
+     #section1 a {    
+	text-decoration: none;
+	color: black;
+     }
+     
+     #section1 a :hover{
+	  text-decoration: none;
+	  color: black;
+     }
+     .share_icons i {
+	font-size: 1.1rem;
+	background-color: #f2f2f2;
+	padding: 10px;
+	border-radius: 50%;
+     }
+     
+     aside {
+	float: right;
+     }
+     
+     aside img {
+	width: 100px;
+	height: 100px;    
+     }
+     
+     /*body and text*/
+     .tommy {
+      width: 40%;
+      margin: auto;
+      font-weight: 300;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+     }
+     /*aside article 
+     .editor{
+     float: right;
+     display: grid;
+     }
+     */
+     .theory{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: lighter;
+     }
+     
+     .theory h3{
+	font-family: serif;
+	font-weight: bold;
+	font-size: 20px;
+     }
+     
+     .theory p{
+	color: rgb(126, 123, 123);
+	font-size: 13px;
+	width: 80%;
+     }
+     
+     .inflation_cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 5px;
+     }
+     
+     .inflation_cards img{
+	width: 190px;
+     }
+     
+     .inflation_cards p{
+	font-size: 15px;
+	box-sizing: border-box;
+	width: auto;
+	font-weight: 400;
+     }
+     
+     .inflation_cardi{
+	display: flex;
+     }
+     
+     .inflation_cardi img{
+	width: 190px;
+     }
+     
+     .inflation_cardi p{
+	font-size: 15px;
+	box-sizing: border-box;
+	width: auto;
+	font-weight: 400;
+     }
+      
+     .cosmos_2 {
+	margin: auto;
+	width: 50%;
+     }
+     
+     .cosmos_2 img {
+	width: 700px;
+	height: 500px;
+     }
+     /*.comment{
+	  display: flex;
+	  justify-content: space-between;
+	box-sizing: border-box;
+     */
+	.wink i{
+	background-color: rgb(224, 212, 212);
+	border-radius: 50%;
+	padding: 10px;
+     }
+     .read{
+	width: 70%;
+	margin: auto;  
+	background-color: rgb(46, 117, 161); 
+	color: white;
+	width: 400px; 
+	padding: 15px 0;
+     }
+     
+     .astronomy_cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 5px;
+     }
+     
+     .astronomy {
+	  width: 100%;
+	  margin-right: auto;
+	  margin-left: auto;
+	  
+     }
+     
+     .astronomy a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+     }
+     
+     .astronomy a:hover{
+	color: grey;
+     }
+     
+	  .astronomy_cards img {
+	width: 300px;
+	height: 250px;
+	cursor: grab;
+	 }
+	  .astronomy_cards p{
+	   width: 87.767%;
+	  }
+     
+	 .aside_bar{
+		 top: 0%;
+		 right: 0%;
+	     width: 80%;
+	     box-sizing: border-box;
+	  cursor: progress;
+	   font-weight: bolder;
+	  
+	 }
+     
+	 .astro_cards {
+	     display: grid;
+	     grid-template-columns: 1fr 1fr 1fr ;
+	     grid-gap: 10px;
+	   }
+	 
+	   .Astrophysics a {
+	     text-decoration: none;
+	     color: black;
+	     font-weight: bold;
+	   }
+	   
+	   .Astrophysics a:hover{
+	     color: grey;
+	   }
+	   
+	   .astro_cards img {
+	     width: 400px;
+	     height: 250px;
+	   }
+	   .astro_cards p{
+	     width: 50%;
+	   }
+      .comment .read{
+	  width: 20%;
+	  margin: auto;
+	  padding: 5px;
+     }
+     
+     
+	  .tomy{
+	    width: 50%;
+	    margin: auto;
+	    box-sizing: border-box;
+	  }
+	  .tomy .wink{
+	    float: right;
+	    padding: 18px;
+	  }
+	     /*footer section */
+	     .foot{
+		  display: flex;
+		  justify-content: space-between;
+	     }
+	     .foot img{
+		  width: 200px;
+		  height: auto;
+	     }
+	     .foot p {
+		  float: right;
+		  
+	     }
+     
+	      .foot a{
+		 color: black;
+		 text-decoration: none;  
+	      }
+     
+	      .foot a:hover{
+		 color:black;
+		 text-decoration: underline;
+	      }
+	.downer a{
+	    color: rgb(58, 52, 52);
+	    text-decoration: none;
+	}
+	.downer a :hover{
+	    color: rgb(61, 60, 60);
+	    text-decoration:underline;
+     
+	}
+	.downer {
+	  grid-template-columns: repeat(6, 1fr);
+	  display: flex;
+	  box-sizing: border-box;
+	  justify-content: space-between;
+	}
+      
+	 .first_footer{
+	  width: 150px;
+	  font-size: 13px;
+	  flex-direction: column;
+	    }
+     
+	  #line{
+	    width: 100%;
+	  }
+     
+	  .footer_last a{
+	    color: black;
+	    text-decoration: none;
+	    }
+	    
+	     .footer_last a :hover{
+		color: black;
+		text-decoration: underline;
+	     }
+	   
 
-.left_section{
-    padding: 0px 10px 0px 10px;
-}
-
-   .left_section a{
-     color: black;
-    text-decoration: none;
-   }
-
-.left_section a :hover{
-    color: rgb(31, 29, 29);
-    text-decoration: none;
- }
-
- .right_section button{
-    background-color: rgb(46, 117, 161); 
-    color: black;
-     padding: 8px;
-     border: none;
-     border-radius: 4px;
-margin: 3px;
- }
- h1 {
-    text-align: center;
-    font-size: 30px;
-    color: #000;
-    font-style: italic;
-    font-weight: bold;
-    font-family:nyt-imperial,georgia,'times new roman',times,serif;
-}
-
-#item {
-    margin-right: 26%;
-}
-
-#section1{
-margin: auto;
-width: 50%;
-}
-  #section1 a{    text-decoration: none;
-     color: black;
- }
-
- #section1 a :hover{
-    text-decoration: none;
-    color: black;
-}
-.share_icon i{
- display: flex;
- justify-content: right;
-}
-
-/*body and text*/
-
-.tommy{
-    box-sizing: border-box;
- width: 50%;
- margin: auto;
- font-weight: bold;
- font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   
-}
-/*aside article */
-.editor{
-float: right;
-display: grid;
-}
-.editor img{
-
-}

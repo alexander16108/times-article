@@ -1,13 +1,17 @@
+
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # NEW YORK TIMES PAGE
 
-> A web clone of the new york times webpage that show way on how to make use of grids and alignment of items.
+> A standard web clone page to prove the use of flex and grid in positioning and alignment of elements.
+> A project to teach on making a good repository, an acceptable readme file and a presentable description of the webpage or project. 
 
 
 
-Additional description about the project and its features.
 
+#### Additional description about the project and its features.
+- It has a good html write up and and reliable css layout 
 ## Built With
 
 - html and css 
@@ -16,14 +20,10 @@ Additional description about the project and its features.
 
 
 
-To get a local copy up and running follow these simple example steps.
-
-
-## Authors
+## Author
 
 👤 **Alexander16108**
 
 - GitHub: [@alexander16108](https://github.com/alexander16108)
 - Twitter: [@twitterhandle](https://twitter.com/alexander)
 - LinkedIn: [LinkedIn](https://linkedin.com/alexander)
-
