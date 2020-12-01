@@ -1,16 +1,16 @@
-<<<<<<< HEAD
-a solo website creator 
-=======
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # NEW YORK TIMES PAGE
 
-> A web clone of the new york times webpage.
+> A standard web clone page to prove the use of flex and grid in positioning and alignment of elements.
+> A project to teach on making a good repository, an acceptable readme file and a presentable description of the webpage or project. 
 
 
 
-Additional description about the project and its features.
 
+#### Additional description about the project and its features.
+- It has a good html write up and and reliable css layout 
 ## Built With
 
 - html and css 
@@ -19,23 +19,7 @@ Additional description about the project and its features.
 
 
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
+## Author
 
 👤 **Alexander16108**
 
@@ -43,4 +27,3 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/alexander)
 - LinkedIn: [LinkedIn](https://linkedin.com/alexander)
 
->>>>>>> 5e724922d216048b81a09c1b4ffc3744c03676a6
