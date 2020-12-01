@@ -1,4 +1,5 @@
 
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # NEW YORK TIMES PAGE
@@ -26,4 +27,3 @@
 - GitHub: [@alexander16108](https://github.com/alexander16108)
 - Twitter: [@twitterhandle](https://twitter.com/alexander)
 - LinkedIn: [LinkedIn](https://linkedin.com/alexander)
-
