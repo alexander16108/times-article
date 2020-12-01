@@ -1,653 +1,345 @@
 
-header{
- display: flex;
-justify-content: space-between;
-}
-
-.spacex{
-    text-decoration: none;
-    border: none;
-    margin-top: 0px;
-    padding: 0px;
-    color: black;
-    font-family: serif;
-    font-weight: lighter;
-    
-}
-.spacex :hover{
-    text-decoration: none;
-    color: black;
-}
-h1{
-    font-family: 'Courier New', Courier, monospace;
-}
-
-
-
-.with-image >img{
-    
-    margin: 0px;
-    border: 0px;
-    width: 66%;
-
-}
-
-.theory >img{
-    margin: 0px;
-    border: 0px;
-    width: 66%;
-}
-
-.left_section{
-    display: flex;
-    justify-content: stretch;
-}
-.middle_section{
-    align-items: center;
-}
-p{
-    
-  width: 800px;
-  margin-top: 10px;
-	color: #666;
-	font-size: 16px;
-    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
-    text-align: center;
-	padding-right: 50%;
-}
-
-
-
-/* editor's page section*/
-.editor{
-    display: flex;
-    flex-direction: column;
-  float: right;
-    
-}
-
-.editor article img{
-    width: 70px;
-    padding: 0%;
-    margin: 0%;
-    border: none;
-}
-
-.editor article a{
-    text-decoration: underline;
-}
-
-/*footer section*/ 
-.links {
-    padding-right: 5px;
-    display: flex;
-    color: black;
-  justify-content: space-between ;
-text-decoration:none ;
-}
-.links a ,a{
-    color: black;
-    text-decoration: none;
-}
-.links :hover{
-    text-decoration: none;
-    color: black;
-}
-
-.links > div{
-    padding: 0px,15px, 0px, 15px;
-
-}
- .foot  {
-     display: flex;
-     justify-content: space-between;
- }
- .foot img{
-width: 300px;
- }
- h6{
-     text-align: center;
-}
-
-header{
- display: flex;
-justify-content: space-between;
-}
-
-.spacex{
-    text-decoration: none;
-    border: none;
-    margin-top: 0px;
-    padding: 0px;
-    color: black;
-    font-family: serif;
-    font-weight: lighter;
-    
-}
-.spacex :hover{
-    text-decoration: none;
-    color: black;
-}
-h1{
-    font-family: 'Courier New', Courier, monospace;
-}
-
-
-
-.with-image >img{
-    
-    margin: 0px;
-    border: 0px;
-    width: 66%;
-
-}
-
-.theory >img{
-    margin: 0px;
-    border: 0px;
-    width: 66%;
-}
-
-.left_section{
-    display: flex;
-    justify-content: stretch;
-}
-.middle_section{
-    align-items: center;
-}
-p{
-    
-  width: 800px;
-  margin-top: 10px;
-	color: #666;
-	font-size: 16px;
-    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
-    text-align: center;
-	padding-right: 50%;
-}
-
-
-
-/* editor's page section*/
-.editor{
-    display: flex;
-    flex-direction: column;
-  float: right;
-    
-}
-
-.editor article img{
-    width: 70px;
-    padding: 0%;
-    margin: 0%;
-    border: none;
-}
-
-.editor article a{
-    text-decoration: underline;
-}
-
-/*footer section*/ 
-.links {
-    padding-right: 5px;
-    display: flex;
-    color: black;
-  justify-content: space-between ;
-text-decoration:none ;
-}
-.links a ,a{
-    color: black;
-    text-decoration: none;
-}
-.links :hover{
-    text-decoration: none;
-    color: black;
-}
-
-.links > div{
-    padding: 0px,15px, 0px, 15px;
-
-}
- .foot  {
-     display: flex;
-     justify-content: space-between;
- }
- .foot img{
-width: 300px;
- }
- h6{
-     text-align: center;
-}
-
-
-header{
- display: flex;
-justify-content: space-between;
-position: sticky;
-}
-
-.spacex{
-    text-decoration: none;
-    border: none;
-    margin-top: 0px;
-    padding: 0px;
-    color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: lighter;
-
-    
-}
-.spacex :hover{
-    text-decoration: none;
-    color: black;
-}
-h1{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-
-
-.with-image >img{
-    
-    margin: 0px;
-    border: 0px;
-    width: 66%;
-
-}
-
-.theory >img{
-    margin: 0px;
-    
-    border: 0px;
-    width: 66%;
-}
-.left_section{
-   flex-direction: column;
-    padding: 0%;
-    margin: 0%;
-}
-.middle_section{
-    align-items: center;
-}
-
-.right_section{
-    padding-top: 32px;
- 
-
-}
-.btn{
-    margin: 0px;
-    background-color: rgb(71, 71, 141);
-    color: white;
-    border: none;
-padding: 8px;
-border-radius: 3px;
-}
-p{
-    
-  width: 800px;
-  margin-top: 10px;
-	color: #666;
-	font-size: 16px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-	padding-right: 50%;
-}
-
-
-
-/* editor's page section*/
-.editor{
-    display: flex;
-    flex-direction: column;
-  float: right;
-    
-}
-
-.editor article img{
-    width: 70px;
-    padding: 0%;
-    margin: 0%;
-    border: none;
-}
-
-.editor article a{
-    text-decoration: underline;
-}
-
-/*footer section*/ 
-.links {
-    padding-right: 5px;
-    display: flex;
-    color: black;
-  justify-content: space-between ;
-text-decoration:none ;
-}
-.links a ,a{
-    color: black;
-    text-decoration: none;
-}
-.links :hover{
-    text-decoration: none;
-    color: black;
-}
-
-.links > div{
-    padding: 0px,15px, 0px, 15px;
-
-}
- .foot  {
-     display: flex;
-     justify-content: space-between;
- }
- .foot img{
-width: 300px;
- }
- h6{
-     text-align: center;
- }
- .downer a{
-     margin: 0px;
-     padding-bottom: 22px;
- }
-
-header{
- display: flex;
-justify-content: space-between;
-position: sticky;
-}
-
-.spacex{
-    text-decoration: none;
-    border: none;
-    margin-top: 0px;
-    padding-left: 12px;
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: lighter;
-
-    
-}
-.spacex :hover{
-    text-decoration: none;
-    color: black;
-}
-h1{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-}
-
-
-
-.with-image >img{
-    
-    margin: 0px;
-    border: 0px;
-    width: 66%;
-align-content: center;
-}
-
-.theory >img{
-    margin: 0px;
-    align-content: center;
-    border: 0px;
-    width: 66%;
-}
-.left_section{
-   flex-direction: column;
-    padding: 10px;
-    margin: 0%;
-}
-.middle_section{
-    align-items: center;
-    height: 15px;
-}
-
-.right_section{
-    padding-top: 32px;
- 
-}
-
-.left_section img{
-    height: 20px;
-    width: 20px;
-    padding-top: 4px;
-}
-.btn{
-    margin: 0px;
-    background-color: rgb(71, 71, 141);
-    color: white;
-    border: none;
-padding: 8px;
-border-radius: 3px;
-}
-p{
-  
-    width: 800px;
-  margin-top: 10px;
-	color: #666;
-	font-size: 16px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-  
-}
-
-
-
-/* editor's page section*/
-.editor{
-    display: flex;
-    flex-direction: column;
-  float: right;
-    
-}
-
-.editor article img{
-    width: 70px;
-    padding: 0%;
-    margin: 0%;
-    border: none;
-}
-
-.editor article a{
-    text-decoration: underline;
-}
-.editor article .text{
-    width: 4px;
-
-}
-
-/*footer section*/ 
-.links {
-    padding-right: 5px;
-    display: flex;
-    color: black;
-  justify-content: space-between ;
-text-decoration:none ;
-}
-.links a ,a{
-    color: black;
-    text-decoration: none;
-}
-.links :hover{
-    text-decoration: none;
-    color: black;
-}
-
-.links > div{
-    padding: 0px,15px, 0px, 15px;
-
-}
- .foot  {
-     display: flex;
-     justify-content: space-between;
- }
- .foot img{
-width: 300px;
- }
- h6{
-     text-align: center;
- }
- .downer a{
-     margin: 0px;
-     padding-bottom: 22px;
- }
-
- .read{
-     display: flex;
-     justify-content: center;
-    width: 100%;
-    padding: 8px 0px 8px 0px;
-    background-color: rgb(82, 82, 168);
- }
-
-=======
-
-header{
- display: flex;
-justify-content: space-between;
-position: sticky;
-}
-
-.spacex{
-    text-decoration: none;
-    border: none;
-    margin-top: 0px;
-    padding-left: 12px;
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: lighter;
-
-    
-}
-.spacex :hover{
-    text-decoration: none;
-    color: black;
-}
-h1{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-}
-
-
-
-.with-image >img{
-    
-    margin: 0px;
-    border: 0px;
-    width: 66%;
-align-content: center;
-}
-
-.theory >img{
-    margin: 0px;
-    align-content: center;
-    border: 0px;
-    width: 66%;
-}
-.left_section{
-   flex-direction: column;
-    padding: 10px;
-    margin: 0%;
-}
-.middle_section{
-    align-items: center;
-    height: 15px;
-}
-
-.right_section{
-    padding-top: 32px;
- 
-}
-
-.left_section img{
-    height: 20px;
-    width: 20px;
-    padding-top: 4px;
-}
-.btn{
-    margin: 0px;
-    background-color: rgb(71, 71, 141);
-    color: white;
-    border: none;
-padding: 8px;
-border-radius: 3px;
-}
-p{
-  
-    width: 800px;
-  margin-top: 10px;
-	color: #666;
-	font-size: 16px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-  
-}
-
-
-
-/* editor's page section*/
-.editor{
-    display: flex;
-    flex-direction: column;
-  float: right;
-    
-}
-
-.editor article img{
-    width: 70px;
-    padding: 0%;
-    margin: 0%;
-    border: none;
-}
-
-.editor article a{
-    text-decoration: underline;
-}
-.editor article .text{
-    width: 4px;
-
-}
-
-/*footer section*/ 
-.links {
-    padding-right: 5px;
-    display: flex;
-    color: black;
-  justify-content: space-between ;
-text-decoration:none ;
-}
-.links a ,a{
-    color: black;
-    text-decoration: none;
-}
-.links :hover{
-    text-decoration: none;
-    color: black;
-}
-
-.links > div{
-    padding: 0px,15px, 0px, 15px;
-
-}
- .foot  {
-     display: flex;
-     justify-content: space-between;
- }
- .foot img{
-width: 300px;
- }
- h6{
-     text-align: center;
- }
- .downer a{
-     margin: 0px;
-     padding-bottom: 22px;
- }
-
- .read{
-     display: flex;
-     justify-content: center;
-    width: 100%;
-    padding: 8px 0px 8px 0px;
-    background-color: rgb(82, 82, 168);
- }
-
+nav { 
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	color: black;
+	width: 100%;
+	margin-top: 0%;
+	padding: 10px;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+     }
+     
+     .left_section {
+	padding: 10px 10px 0px 10px;
+     }
+     
+     .left_section .fa-search, .fa-bars{
+	padding-right: 15px;
+     }
+     
+     .left_section a {
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+      }
+     
+     .left_section a:hover {
+	color: rgb(31, 29, 29);
+	text-decoration: none;
+      }
+     
+     .middle_section img {
+	height: 50px;
+	width:200px;
+     } 
+     
+     .right_section {
+	padding: 10px 10px 0px 10px;
+     }
+     
+      .right_section button{
+	background-color: rgb(46, 117, 161); 
+	color: white;
+	padding: 8px;
+	border: none;
+	border-radius: 4px;
+	margin: 3px;
+	font-weight: bold;
+      }
+     
+     .heading_first h1{
+	text-align: center;
+	font-size: 30px;
+	color: #000;
+	font-style: italic;
+	font-weight: bold;
+	font-family:nyt-imperial,georgia,'times new roman',times,serif;
+	margin-top: 6rem;
+     }
+     
+     .first_image {
+	  margin: auto;
+	  width: 70%;
+     }
+     
+     .first_image img {
+	width: 1000px;
+	height: 600px;
+     }
+     
+     #section1 {
+	margin: auto;
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	padding-top:1.5rem;
+     }
+     
+     .date {
+	  font-size: 1.2rem;
+     }
+     
+     #section1 a {    
+	text-decoration: none;
+	color: black;
+     }
+     
+     #section1 a :hover{
+	  text-decoration: none;
+	  color: black;
+     }
+     .share_icons i {
+	font-size: 1.1rem;
+	background-color: #f2f2f2;
+	padding: 10px;
+	border-radius: 50%;
+     }
+     
+     aside {
+	float: right;
+     }
+     
+     aside img {
+	width: 100px;
+	height: 100px;    
+     }
+     
+     /*body and text*/
+     .tommy {
+      width: 40%;
+      margin: auto;
+      font-weight: 300;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+     }
+     /*aside article 
+     .editor{
+     float: right;
+     display: grid;
+     }
+     */
+     .theory{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: lighter;
+     }
+     
+     .theory h3{
+	font-family: serif;
+	font-weight: bold;
+	font-size: 20px;
+     }
+     
+     .theory p{
+	color: rgb(126, 123, 123);
+	font-size: 13px;
+	width: 80%;
+     }
+     
+     .inflation_cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 5px;
+     }
+     
+     .inflation_cards img{
+	width: 190px;
+     }
+     
+     .inflation_cards p{
+	font-size: 15px;
+	box-sizing: border-box;
+	width: auto;
+	font-weight: 400;
+     }
+     
+     .inflation_cardi{
+	display: flex;
+     }
+     
+     .inflation_cardi img{
+	width: 190px;
+     }
+     
+     .inflation_cardi p{
+	font-size: 15px;
+	box-sizing: border-box;
+	width: auto;
+	font-weight: 400;
+     }
+      
+     .cosmos_2 {
+	margin: auto;
+	width: 50%;
+     }
+     
+     .cosmos_2 img {
+	width: 700px;
+	height: 500px;
+     }
+     /*.comment{
+	  display: flex;
+	  justify-content: space-between;
+	box-sizing: border-box;
+     */
+	.wink i{
+	background-color: rgb(224, 212, 212);
+	border-radius: 50%;
+	padding: 10px;
+     }
+     .read{
+	width: 70%;
+	margin: auto;  
+	background-color: rgb(46, 117, 161); 
+	color: white;
+	width: 400px; 
+	padding: 15px 0;
+     }
+     
+     .astronomy_cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 5px;
+     }
+     
+     .astronomy {
+	  width: 100%;
+	  margin-right: auto;
+	  margin-left: auto;
+	  
+     }
+     
+     .astronomy a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+     }
+     
+     .astronomy a:hover{
+	color: grey;
+     }
+     
+	  .astronomy_cards img {
+	width: 300px;
+	height: 250px;
+	cursor: grab;
+	 }
+	  .astronomy_cards p{
+	   width: 87.767%;
+	  }
+     
+	 .aside_bar{
+		 top: 0%;
+		 right: 0%;
+	     width: 80%;
+	     box-sizing: border-box;
+	  cursor: progress;
+	   font-weight: bolder;
+	  
+	 }
+     
+	 .astro_cards {
+	     display: grid;
+	     grid-template-columns: 1fr 1fr 1fr ;
+	     grid-gap: 10px;
+	   }
+	 
+	   .Astrophysics a {
+	     text-decoration: none;
+	     color: black;
+	     font-weight: bold;
+	   }
+	   
+	   .Astrophysics a:hover{
+	     color: grey;
+	   }
+	   
+	   .astro_cards img {
+	     width: 400px;
+	     height: 250px;
+	   }
+	   .astro_cards p{
+	     width: 50%;
+	   }
+      .comment .read{
+	  width: 20%;
+	  margin: auto;
+	  padding: 5px;
+     }
+     
+     
+	  .tomy{
+	    width: 50%;
+	    margin: auto;
+	    box-sizing: border-box;
+	  }
+	  .tomy .wink{
+	    float: right;
+	    padding: 18px;
+	  }
+	     /*footer section */
+	     .foot{
+		  display: flex;
+		  justify-content: space-between;
+	     }
+	     .foot img{
+		  width: 200px;
+		  height: auto;
+	     }
+	     .foot p {
+		  float: right;
+		  
+	     }
+     
+	      .foot a{
+		 color: black;
+		 text-decoration: none;  
+	      }
+     
+	      .foot a:hover{
+		 color:black;
+		 text-decoration: underline;
+	      }
+	.downer a{
+	    color: rgb(58, 52, 52);
+	    text-decoration: none;
+	}
+	.downer a :hover{
+	    color: rgb(61, 60, 60);
+	    text-decoration:underline;
+     
+	}
+	.downer {
+	  grid-template-columns: repeat(6, 1fr);
+	  display: flex;
+	  box-sizing: border-box;
+	  justify-content: space-between;
+	}
+      
+	 .first_footer{
+	  width: 150px;
+	  font-size: 13px;
+	  flex-direction: column;
+	    }
+     
+	  #line{
+	    width: 100%;
+	  }
+     
+	  .footer_last a{
+	    color: black;
+	    text-decoration: none;
+	    }
+	    
+	     .footer_last a :hover{
+		color: black;
+		text-decoration: underline;
+	     }
+	   
